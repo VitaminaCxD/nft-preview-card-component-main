@@ -103,9 +103,8 @@
 }
 
 .card__img--icon {
-    position: relative;
     width: 15%;
-    background: var(--white);
+    background: var(--white);    
     border-radius: 50%;
 }
 
