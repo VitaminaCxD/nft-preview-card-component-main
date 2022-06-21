@@ -52,7 +52,6 @@
 .card__img {
     width: 100%;
     border-radius: 10px;
-    /* vertical-align: ; */
 }
 
 .card__h2,
@@ -92,6 +91,7 @@
 .card__p--eth {
     font-weight: 600;
     color: var(--cyan);
+    position: relative;
 }
 
 .card__container--row {
