@@ -10,7 +10,8 @@
     --white: hsl(0, 0%, 100%);
 
     font-family: 'Outfit', sans-serif;
-
+    scroll-behavior: smooth;
+    
     /* Weights: 300, 400, 600
     Font size (paragraph): 18px */
 }
