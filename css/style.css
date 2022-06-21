@@ -1,4 +1,7 @@
 :root {
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
+
     /* Primary colors */
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
@@ -9,11 +12,6 @@
     --very-dark-blue-line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
 
-    font-family: 'Outfit', sans-serif;
-    scroll-behavior: smooth;
-    
-    /* Weights: 300, 400, 600
-    Font size (paragraph): 18px */
 }
 
 .container {
@@ -105,13 +103,14 @@
 
 .card__img--icon {
     width: 15%;
-    background: var(--white);    
+    background: var(--white);
     border-radius: 50%;
 }
 
 .card__span {
     color: var(--white);
 }
+
 
 @media only screen and (min-width: 1280px) {
     .card {
@@ -126,11 +125,22 @@
         font-size: 1rem;
     }
 
-    .card__p--eth, .card__p--days {
+    .card__p--eth,
+    .card__p--days {
         font-size: 0.8rem;
     }
 
     .card__p--creator {
         font-size: 0.9rem;
+    }
+
+    .card__h2,
+    .card__span {
+        transition: color .1s ease;
+    }
+
+    .card__h2:hover,
+    .card__span:hover {
+        color: var(--cyan);
     }
 }
